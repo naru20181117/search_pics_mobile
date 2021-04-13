@@ -27,7 +27,7 @@ class TranstionThird extends StatelessWidget {
             ),
             color: Colors.green,
             onPressed: () {
-              Navigator.popUntil(context, ModalRoute.withName('/'));
+              Navigator.popUntil(context, ModalRoute.withName('/top'));
             },
           ),
         ),
